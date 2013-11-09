@@ -23,7 +23,7 @@
 				</a>
 			</div>
 
-			<h1><a href="#home">Periodical Discourses</a></h1>
+			<h1><a href="#">Periodical Discourses</a></h1>
 			<div id="time">August 1865. Issue 56.</div>
 		</header>
 
@@ -157,7 +157,7 @@
 			var hash = document.location.hash;
 			var staticTemplateHashes = ['#authors', '#privacy', '#contact'];
 
-			if (hash == '' || hash == '#home') {
+			if (hash == '') {
 				$('#hashContainer').html(articles.getPreviews());
 
 				$('#articles').masonry({
