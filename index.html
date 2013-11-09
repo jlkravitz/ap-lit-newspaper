@@ -41,21 +41,21 @@
 		</footer>
 	</div>
 
-	<template id="articlePreviewTemplate">
+	<script type="text/template" id="articlePreviewTemplate">
 		<article style="width: {3}%">
 			<h2><a href="#{1}">{0}</a></h2>
 			<div class="body">{2}</div>
 		</article>
-	</template>
+	</script>
 
-	<template id="articleFullTemplate">
+	<script type="text/template" id="articleFullTemplate">
 		<article>
 			<h2>{0}</h2>
 			<div class="body">{1}</div>
 		</article>
-	</template>
+	</script>
 
-	<template id="authorsTemplate">
+	<script type="text/template" id="authorsTemplate">
 		<ul id="authors">
 			<li>
 				<p>Kilpatrick, Sidonie</p>
@@ -76,9 +76,9 @@
 				<p>Wu, Michael</p>
 			</li>
 		</ul>
-	</template>
+	</script>
 
-	<template id="privacyTemplate">
+	<script type="text/template" id="privacyTemplate">
 		<p>This privacy policy sets out how &ldquo;The Periodical Discourses Company&rdquo; uses and protects any information that you give &ldquo;The Periodical Discourses Company&rdquo; when you use this website.<br />
 		&ldquo;The Periodical Discourses Company&rdquo; is committed to ensuring that your privacy is protected. Should we ask you to provide certain information by which you can be identified when using this website, then you can be assured that it will only be used in accordance with this privacy statement.<br />
 		&ldquo;The Periodical Discourses Company&rdquo; may change this policy from time to time by updating this page. You should check this page from time to time to ensure that you are happy with any changes. This policy is effective from April 4th, 1886.<br />
@@ -115,10 +115,26 @@
 		<br />
 		<strong>Links to other websites</strong><br />
 		Our website may contain links to enable you to visit other websites of interest easily. However, once you have used these links to leave our site, you should note that we do not have any control over that other website. Therefore, we cannot be responsible for the protection and privacy of any information which you provide whilst visiting such sites and such sites are not governed by this privacy statement. You should exercise caution and look at the privacy statement applicable to the website in question.</p>
-	</template>
-	<template id="contactTemplate">
-	Contact HERE
-	</template>
+		<span style="display:none">'</span> <!-- Hack to fix sublime syntax highlighting for templates -->
+	</script>
+	
+	<script type="text/template" id="contactTemplate">
+		<div id="contact">
+			<form action="/" onsubmit="window.location = '/'; return false;">
+				<table>
+					<tr>
+						<td><label for="emailAddress">Your Email Address </label></td>
+						<td><input type="email," for="emailAddress"></td>
+					</tr>
+					<tr>
+						<td><label for="message">Your Message </label></td>
+						<td><textarea name="" id="message" cols="30" rows="10"></textarea></td>
+					</tr>
+				</table>
+				<button type="submit">Submit</button>
+			</form>
+		</div>
+	</script>
 
 	<script>
 		// Source: http://stackoverflow.com/
