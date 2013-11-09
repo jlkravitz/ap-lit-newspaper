@@ -11,17 +11,8 @@
 	<div class="container">
 		<div id="background"></div>
 		<header class="page-header">
-			<div id="left-ad">
-				<a href="http://channel.nationalgeographic.com/channel/killing-kennedy/?utm_source=nytimes&utm_medium=highimpact&utm_campaign=killingkennedy" target="_blank">
-					<img src="img/left-ad.jpg" width="184" height="90" border="0">
-				</a>
-			</div>
-
-			<div id="right-ad">
-				<a href="http://channel.nationalgeographic.com/channel/killing-kennedy/?utm_source=nytimes&utm_medium=highimpact&utm_campaign=killingkennedy" target="_blank">
-					<img src="img/right-ad.jpg" width="184" height="90" border="0">
-				</a>
-			</div>
+			<a href="#pawnbroker" id="left-ad"><img src="img/pawnbroker.gif" /> Local Pawnbroker Here</a>
+			<a href="#murderer" id="right-ad"><img src="img/blood.png" />Murderer <br /> Wanted</a>
 
 			<h1><a href="#">Periodical Discourses</a></h1>
 			<div id="time">August 1865. Issue 56.</div>
@@ -53,6 +44,14 @@
 			<h2>{0}</h2>
 			<div class="body">{1}</div>
 		</article>
+	</script>
+
+	<script type="text/template" id="murdererTemplate">
+		<h2>A Murderer is on the Loose!</h2>
+	</script>
+
+	<script type="text/template" id="pawnbrokerTemplate">
+		<h2>I can be your local pawnbroker!</h2>
 	</script>
 
 	<script type="text/template" id="authorsTemplate">
@@ -155,7 +154,7 @@
 	<script>
 		var updateHash = function() {
 			var hash = document.location.hash;
-			var staticTemplateHashes = ['#authors', '#privacy', '#contact'];
+			var staticTemplateHashes = ['#murderer', '#pawnbroker', '#authors', '#privacy', '#contact'];
 
 			if (hash == '') {
 				$('#hashContainer').html(articles.getPreviews());
