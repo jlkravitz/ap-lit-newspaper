@@ -28,20 +28,41 @@
 		</header>
 
 		<div id="hashContainer"></div>
+
+		<footer>
+			<nav>
+				<ul>
+					<li><a href="#">&copy; 1886 The Petersburg Discourses Company</a></li>
+					<li><a href="#authors">The Authors</a></li>
+					<li><a href="#privacy">Privacy</a></li>
+					<li><a href="#contact">Contact Us</a></li>
+				</ul>
+			</nav>
+		</footer>
 	</div>
 
-	<script type="text/template," id="articlePreviewTemplate">
+	<script type="text/template" id="articlePreviewTemplate">
 		<article style="width: {3}%">
 			<h2><a href="#{1}">{0}</a></h2>
 			<div class="body">{2}</div>
 		</article>
 	</script>
 
-	<script type="text/template," id="articleFullTemplate">
+	<script type="text/template" id="articleFullTemplate">
 		<article>
 			<h2>{0}</h2>
 			<div class="body">{1}</div>
 		</article>
+	</script>
+
+	<script type="text/template" id="authorsTemplate">
+	AUTHORS HERE
+	</script>
+	<script type="text/template" id="privacyTemplate">
+	Privacy HERE
+	</script>
+	<script type="text/template" id="contactTemplate">
+	Contact HERE
 	</script>
 
 	<script>
@@ -74,6 +95,8 @@
 	<script>
 		var updateHash = function() {
 			var hash = document.location.hash;
+			var staticTemplateHashes = ['#authors', '#privacy', '#contact'];
+
 			if (hash == '' || hash == '#home') {
 				$('#hashContainer').html(articles.getPreviews());
 
@@ -81,6 +104,9 @@
 					columnWidth: 20,
 					itemSelector: 'article'
 				});
+			} else if (staticTemplateHashes.indexOf(hash) != -1) {
+				var templateHtml = $(hash + 'Template').html();
+				$('#hashContainer').html(templateHtml);
 			} else {
 				var articleId = parseInt(hash.substring(1));
 				var article = articles.getById(articleId);
