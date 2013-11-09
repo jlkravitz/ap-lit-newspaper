@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Periodical Discourses</title>
+	<link rel="stylesheet/less" href="css/main.less">
+	<link href='http://fonts.googleapis.com/css?family=UnifrakturMaguntia' rel='stylesheet'>
+
+	<script src="js/less.js" type="text/javascript"></script>
+</head>
+<body>
+	<div class="container">
+		<div id="background"></div>
+		<header class="page-header">
+			<div id="left-ad">
+				<a href="http://channel.nationalgeographic.com/channel/killing-kennedy/?utm_source=nytimes&utm_medium=highimpact&utm_campaign=killingkennedy" target="_blank">
+					<img src="img/left-ad.jpg" width="184" height="90" border="0">
+				</a>
+			</div>
+
+			<div id="right-ad">
+				<a href="http://channel.nationalgeographic.com/channel/killing-kennedy/?utm_source=nytimes&utm_medium=highimpact&utm_campaign=killingkennedy" target="_blank">
+					<img src="img/right-ad.jpg" width="184" height="90" border="0">
+				</a>
+			</div>
+
+			<h1><a href="#home">Periodical Discourses</a></h1>
+			<div id="time">Friday, April 9th, 1886</div>
+		</header>
+
+		<div id="hashContainer"></div>
+	</div>
+
+	<script type="text/template," id="articlePreviewTemplate">
+		<article style="width: {3}%">
+			<h2><a href="#{1}">{0}</a></h2>
+			<div class="body">{2}</div>
+		</article>
+	</script>
+
+	<script type="text/template," id="articleFullTemplate">
+		<article>
+			<h2>{0}</h2>
+			<div class="body">{1}</div>
+		</article>
+	</script>
+
+	<script>
+		// Source: http://stackoverflow.com/
+		// 				questions/14062368/new-recommended-jquery-templates
+		String.prototype.format = function() {
+		  var args = arguments;
+		  return this.replace(/{(\d+)}/g, function(match, number) { 
+		    return typeof args[number] != 'undefined'
+		      ? args[number]
+		      : match
+		    ;
+		  });
+		};
+
+		String.prototype.repeat = function(num) {
+    		return new Array(num + 1).join(this);
+		};
+	</script>
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+	<!-- https://github.com/finnlabs/jquery.observehashchange -->
+	<script src="js/hashchange.js"></script>
+	<script src="js/masonry.js"></script>
+
+	<script src="js/article.js"></script> <!-- Definition of an article -->
+	<script src="js/article-collection.js"></script> <!-- Definition of an article collection -->
+	<script src="js/articles.js"></script> <!-- Add articles here -->
+	<script>
+		var updateHash = function() {
+			var hash = document.location.hash;
+			if (hash == '' || hash == '#home') {
+				$('#hashContainer').html(articles.getPreviews());
+
+				$('#articles').masonry({
+					columnWidth: 20,
+					itemSelector: 'article'
+				});
+			} else {
+				var articleId = parseInt(hash.substring(1));
+				var article = articles.getById(articleId);
+				$('#hashContainer').html(article.getFullHtml());
+				window.scrollTo(0, 0);
+			}
+		};
+		$(window).hashchange(updateHash);
+		updateHash();
+	</script>
+</body>
+</html>
