@@ -97,7 +97,7 @@ header {
 	border: 1px solid black;
 	margin: 0 auto;
 	background: white;
-	opacity: 0.8;
+	opacity: 0.88;
 }
 
 #hashContainer {
@@ -108,11 +108,29 @@ article {
 	h2 {
 		font-size: 2em;
 		line-height: 1em;
+		margin-bottom: 0;
 	}
 
-	.body {
+	.inspiration, .body {
 		line-height: 1.4em;
-		font-size: 1.2em;
+		font-size: 1.3em;
+	}
+
+	.inspiration {
+		font-style: italic;
+	}
+
+	.author {
+		font-size: 1.1em;
+		font-style: italic;
+		margin: 3px 0 8px;
+	}
+
+	&.articlePreview {
+
+		.body:after {
+			content: " . . .";
+		}
 	}
 }
 

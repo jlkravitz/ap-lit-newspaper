@@ -3,6 +3,9 @@ var Article = (function() {
 
 	function Article(config) {
 		this.title = config.title;
+		this.character = config.character;
+		this.author = config.author;
+		this.inspiration = config.inspiration;
 		this.body = config.body;
 		this.width = config.width || 50;
 		this.previewLength = config.previewLength || 30;
@@ -12,14 +15,16 @@ var Article = (function() {
 
 	Article.prototype.getPreviewHtml = function() {
 		var previewTemplate = $('#articlePreviewTemplate').html();
-		var shortenedBody = shorten(this.body, this.previewLength) + '...';
-		var template = previewTemplate.format(this.title, this.id, shortenedBody, this.width);
+		var shortenedBody = shorten(this.body, this.previewLength);
+		formatedBody = shortenedBody.stripHtml(); // we don't want extraneous html tags in this string
+		var template = previewTemplate.format(this.title, this.author, this.character, this.id, formatedBody, this.width);
 		return template;
 	};
 
 	Article.prototype.getFullHtml = function() {
 		var fullTemplate = $('#articleFullTemplate').html();
-		var template = fullTemplate.format(this.title, this.body);
+		console.log(this.body)
+		var template = fullTemplate.format(this.title, this.author, this.character, this.inspiration, this.body);
 		return template;
 	};
 

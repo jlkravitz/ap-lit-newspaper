@@ -32,16 +32,19 @@
 	</div>
 
 	<script type="text/template" id="articlePreviewTemplate">
-		<article style="width: {3}%">
-			<h2><a href="#{1}">{0}</a></h2>
-			<div class="body">{2}</div>
+		<article class="articlePreview" style="width: {5}%">
+			<h2><a href="#{3}">{0}</a></h2>
+			<p class="author">By {1} as {2}</p>
+			<div class="body">{4}</div>
 		</article>
 	</script>
 
 	<script type="text/template" id="articleFullTemplate">
-		<article>
+		<article class="articleFull">
 			<h2>{0}</h2>
-			<div class="body">{1}</div>
+			<p class="author">By {1} as {2}</p>
+			<div class="inspiration">{3}</div>
+			<div class="body">{4}</div>
 		</article>
 	</script>
 
@@ -135,16 +138,25 @@
 	</script>
 
 	<script>
+
+		// Source: http://stackoverflow.com/
+		//				questions/822452/strip-html-from-text-javascript
+		String.prototype.stripHtml = function() {
+			var tmp = document.createElement('div');
+			tmp.innerHTML = this;
+			return tmp.textContent || tmp.innerText || '';
+		};
+
 		// Source: http://stackoverflow.com/
 		// 				questions/14062368/new-recommended-jquery-templates
 		String.prototype.format = function() {
-		  var args = arguments;
-		  return this.replace(/{(\d+)}/g, function(match, number) { 
-		    return typeof args[number] != 'undefined'
-		      ? args[number]
-		      : match
-		    ;
-		  });
+			var args = arguments;
+			return this.replace(/{(\d+)}/g, function(match, number) { 
+		    	return typeof args[number] != 'undefined'
+		      		? args[number]
+		      		: match
+		    	;
+		  	});
 		};
 
 		String.prototype.repeat = function(num) {
