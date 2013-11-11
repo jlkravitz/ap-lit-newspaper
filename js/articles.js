@@ -24,7 +24,7 @@ articles.add({
 	inspiration: 'Throughout the course of&rdquo;Crime and Punishment&rdquo;, Rodion often utilizes his paper to justify his killing of Lizaveta and Alyona. This paper attempts to recreate the ubermensch-esque style of justification along with a critical analysis behind the reason for crime.',
 	body: '<p>Discount the idea that equality leads to a better world. It doesn&rsquo;t. People have and always will face different challenges in their separate, immeasurable, indigent lives. These challenges build the human race. Over the course of human history, crime has always prevailed as a never ending onslaught of broken moral code. Everyone has the capacity to commit crime. This paper investigates the root cause of crime; how, in committing crime, some men surpass the human condition, transcending into a different plane of existence, while others may simply harm themselves and others.</p> <p> A criminal must have no regard for the universality of moral law. In effect, crime transgresses the boundaries that humanity places upon its people. Crime harms everyone. Crime destroys fundamental beliefs. Society itself does not truly know what it means to commit a crime. It does know, however, that crime harms morality and oftentimes undermines the law. In effect, one can conclude that a criminal has no need for society.</p> <p> Psychologically speaking, how &ldquo;well&rdquo; is a criminal? Before the act, the perpetrator of crime might contemplate, plan the act months or weeks in advance. His psyche takes a toll. He continuously wonders how he will ever succeed in the face of the law. He might doubt himself (1-2). The ceaseless self-doubt gouges into the mind of the criminal, rendering him unresponsive to moral thought. Only the gravity of his actions matter in his mind. The criminal ponders the ramifications of his actions, thinking that he might lose everything and gain nothing, finally concluding that he will not follow through. But, in the end, he does do it. The door opens, the axe falls, and the victim dies (64-68). </p> <p> The fruition of crime engenders two distinct possibilities. On one hand, the criminal kills for the sake of killing, not for personal gain, but for the greater good. The other case uncovers a simple utilitarian exercise. In the latter case, the criminal may continue to commit crime after crime simply to gain more capital. This inevitably leads to societal harms, with laws broken every which way with no gain to society whatsoever. In essence, this crime is unjust. Moreover, crime, a psychologically taxing event, cleaves through the criminal&rsquo;s mind, leaving him a spineless, immoral being: &ldquo;the act of committing a crime is always accompanied by some morbid condition,&rdquo; (219). The psyche of an ordinary man will invariably be damaged in the commission of crime. Undoubtedly, crime committed in this manner should never reach realization. This then begets the secondary problem.</p> <p> Is crime ever justified? When a man kills for the benefit of society, does he himself surpass humanity? People are inherently unequal. Egalitarianism, conversely, deems this notion untrue. To this end, there are several assumptions that one must accept as true in order to justify &ldquo;extraordinary&rdquo; (225) murder. Return to my opening statement. Equality does not necessarily lead to a better life. Moreover, one must assume that morality and law has no meaning without personal meaning, and consequently, an &ldquo;extraordinary&rdquo; man would not &ldquo;suffer if he is conscious of error&rdquo; (224). The murders and crimes an &Uuml;bermensch commits would then be deemed by one above moral law to benefit society in some way, for example, the loss of a wretched old lady may benefit the poor masses. A lapse of moral judgment never would inflict such a theoretical superman. He is without fault. Conscious suffering and psychological harm do not come upon our &ldquo;extraordinary&rdquo; criminal because he fashions his own morality. He remains pure and untouched.</p> <p> Society and the government may not be accepting of the notion of justified crime. However, as with all progress, the key remains an open mind. Isaac Newton. Galileo Galilei. Their breakthroughs met heavy resistance but ultimately proved true. With the modern world changing so quickly, this paper postulates a novel idea for the betterment of humanity as a whole. I hypothesize the idea that the psychological impact of crime inflicts two different classes of man differently. Egalitarianism is wrong. A principle that all of humanity remains equal remains a revolting notion that spits in the face of individual development. Crime can be justified.</p>',
 	width: 20,
-	previewLength: 40
+	previewLength: 48
 });
 articles.add({
 	title: 'Like A Moth Circling a Candle to Its Death',
@@ -53,88 +53,12 @@ articles.add({
 	width: 50,
 	previewLength: 50
 });
-// articles.add({
-// 	title: 'The Hello of a Criminal',
-// 	body: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, perferendis, consectetur, rerum dolorum accusamus illum expedita eveniet alias explicabo eum vel totam dolore odit sunt laudantium non natus inventore quia!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, aliquid, magnam, accusantium error perspiciatis ipsum quae suscipit delectus officiis harum porro a aspernatur ad fugiat dignissimos ullam laboriosam ducimus aperiam.'.repeat(2), 
-// 	width: 40,
-// 	previewLength: 200
-// });
-// articles.add({
-// 	title: 'Goodbye',
-// 	body: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, perferendis, consectetur, rerum dolorum accusamus illum expedita eveniet alias explicabo eum vel totam dolore odit sunt laudantium non natus inventore quia!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, aliquid, magnam, accusantium error perspiciatis ipsum quae suscipit delectus officiis harum porro a aspernatur ad fugiat dignissimos ullam laboriosam ducimus aperiam.'.repeat(2), 
-// 	width: 25
-// });
-// articles.add({
-// 	title: 'Goodbye',
-// 	body: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, perferendis, consectetur, rerum dolorum accusamus illum expedita eveniet alias explicabo eum vel totam dolore odit sunt laudantium non natus inventore quia!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, aliquid, magnam, accusantium error perspiciatis ipsum quae suscipit delectus officiis harum porro a aspernatur ad fugiat dignissimos ullam laboriosam ducimus aperiam.'.repeat(15), 
-// 	width: 75,
-// 	previewLength: 60
-// });
-// articles.add({
-// 	title: 'sdf',
-// 	body: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, perferendis, consectetur, rerum dolorum accusamus illum expedita eveniet alias explicabo eum vel totam dolore odit sunt laudantium non natus inventore quia!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, aliquid, magnam, accusantium error perspiciatis ipsum quae suscipit delectus officiis harum porro a aspernatur ad fugiat dignissimos ullam laboriosam ducimus aperiam.'.repeat(15), 
-// 	width: 20
-// });
-// articles.add({
-// 	title: 'sdf',
-// 	body: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, perferendis, consectetur, rerum dolorum accusamus illum expedita eveniet alias explicabo eum vel totam dolore odit sunt laudantium non natus inventore quia!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, aliquid, magnam, accusantium error perspiciatis ipsum quae suscipit delectus officiis harum porro a aspernatur ad fugiat dignissimos ullam laboriosam ducimus aperiam.'.repeat(15), 
-// 	width: 20
-// });
-// articles.add({
-// 	title: 'sdf',
-// 	body: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, perferendis, consectetur, rerum dolorum accusamus illum expedita eveniet alias explicabo eum vel totam dolore odit sunt laudantium non natus inventore quia!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, aliquid, magnam, accusantium error perspiciatis ipsum quae suscipit delectus officiis harum porro a aspernatur ad fugiat dignissimos ullam laboriosam ducimus aperiam.'.repeat(15), 
-// 	width: 20
-// });
-// articles.add({
-// 	title: 'sdf',
-// 	body: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, perferendis, consectetur, rerum dolorum accusamus illum expedita eveniet alias explicabo eum vel totam dolore odit sunt laudantium non natus inventore quia!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, aliquid, magnam, accusantium error perspiciatis ipsum quae suscipit delectus officiis harum porro a aspernatur ad fugiat dignissimos ullam laboriosam ducimus aperiam.'.repeat(15), 
-// 	width: 20
-// });
-// articles.add({
-// 	title: 'The Musings of a Criminal',
-// 	body: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, perferendis, consectetur, rerum dolorum accusamus illum expedita eveniet alias explicabo eum vel totam dolore odit sunt laudantium non natus inventore quia!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, aliquid, magnam, accusantium error perspiciatis ipsum quae suscipit delectus officiis harum porro a aspernatur ad fugiat dignissimos ullam laboriosam ducimus aperiam.'.repeat(50), 
-// 	width: 50,
-// 	previewLength: 100
-// });
-// articles.add({
-// 	title: 'The Musings of a Criminal',
-// 	body: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, perferendis, consectetur, rerum dolorum accusamus illum expedita eveniet alias explicabo eum vel totam dolore odit sunt laudantium non natus inventore quia!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, aliquid, magnam, accusantium error perspiciatis ipsum quae suscipit delectus officiis harum porro a aspernatur ad fugiat dignissimos ullam laboriosam ducimus aperiam.'.repeat(50), 
-// 	width: 50,
-// 	previewLength: 100
-// });
-// articles.add({
-// 	title: 'The Musings of a Criminal',
-// 	body: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, perferendis, consectetur, rerum dolorum accusamus illum expedita eveniet alias explicabo eum vel totam dolore odit sunt laudantium non natus inventore quia!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, aliquid, magnam, accusantium error perspiciatis ipsum quae suscipit delectus officiis harum porro a aspernatur ad fugiat dignissimos ullam laboriosam ducimus aperiam.'.repeat(50), 
-// 	width: 50,
-// 	previewLength: 100
-// });
-// articles.add({
-// 	title: 'The Musings of a Criminal',
-// 	body: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, perferendis, consectetur, rerum dolorum accusamus illum expedita eveniet alias explicabo eum vel totam dolore odit sunt laudantium non natus inventore quia!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, aliquid, magnam, accusantium error perspiciatis ipsum quae suscipit delectus officiis harum porro a aspernatur ad fugiat dignissimos ullam laboriosam ducimus aperiam.'.repeat(50), 
-// 	width: 50,
-// 	previewLength: 100
-// });
-// articles.add({
-// 	title: 'The Musings of a Criminal',
-// 	body: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, perferendis, consectetur, rerum dolorum accusamus illum expedita eveniet alias explicabo eum vel totam dolore odit sunt laudantium non natus inventore quia!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, aliquid, magnam, accusantium error perspiciatis ipsum quae suscipit delectus officiis harum porro a aspernatur ad fugiat dignissimos ullam laboriosam ducimus aperiam.'.repeat(50), 
-// 	width: 50,
-// 	previewLength: 100
-// });
-// articles.add({
-// 	title: 'The Musings of a Criminal',
-// 	body: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, perferendis, consectetur, rerum dolorum accusamus illum expedita eveniet alias explicabo eum vel totam dolore odit sunt laudantium non natus inventore quia!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, aliquid, magnam, accusantium error perspiciatis ipsum quae suscipit delectus officiis harum porro a aspernatur ad fugiat dignissimos ullam laboriosam ducimus aperiam.'.repeat(50), 
-// 	width: 50,
-// 	previewLength: 100
-// });
-// articles.add({
-// 	title: 'The Musings of a Criminal',
-// 	body: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, perferendis, consectetur, rerum dolorum accusamus illum expedita eveniet alias explicabo eum vel totam dolore odit sunt laudantium non natus inventore quia!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, aliquid, magnam, accusantium error perspiciatis ipsum quae suscipit delectus officiis harum porro a aspernatur ad fugiat dignissimos ullam laboriosam ducimus aperiam.'.repeat(50), 
-// 	width: 50,
-// 	previewLength: 100
-// });
-// articles.add({
-// 	title: 'The Musings of a Criminal',
-// 	body: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, perferendis, consectetur, rerum dolorum accusamus illum expedita eveniet alias explicabo eum vel totam dolore odit sunt laudantium non natus inventore quia!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, aliquid, magnam, accusantium error perspiciatis ipsum quae suscipit delectus officiis harum porro a aspernatur ad fugiat dignissimos ullam laboriosam ducimus aperiam.'.repeat(50), 
-// 	width: 50,
-// 	previewLength: 100
-// });
+articles.add({
+	title: 'Dear Anastasia',
+	author: 'Sidonie Kilpatrick and Emily Chernich',
+	character: '"Anastasia" and Avdotya Romanovna Raskolnikov',
+	inspiration: '',
+	body: '<p>Dear Anastasia,</p> <p>My brother is going through terrible times right now and I am trying to support him by working as a maid for a family in my town. I am a respectful maid and have done everything that the lady of the house wishes, such as picking up after the children, doing chores, and maintaining a suitable household for my employers. But, one day as I was clearing the breakfast table, the master of the house started making &ldquo;sarcastic and discourteous remarks&rdquo; about by cleaning skills (26). Of course I cannot say anything because I am his employee, but I do not deserve to be treated this way, especially since I am there best maid and I have not given him any motive to accuse me of improper maid habits. His wife and children, however, speak to me &ldquo;kindly and generously&rdquo; and always advise me to disregard the comments that the master says (26). But, this is only helpful when the master is not impaired by &ldquo;Bucchus&rdquo; because he is especially cruel with his humor and nasty jokes (26).</p> <p>But this was not even the worst part! One day while I was walking through the garden on their estate, he pulled me aside and professed his mad infatuation for me! He ardently apologized for acting rudely towards me and &ldquo;simply wanted to hide the true state of affairs from other people&rdquo; (26). He even declared that he would leave his wife and we could run away to another estate or abroad. This all was quite absurd because I respect his wife and I definitely did not want to cause a scandal. I told him that I did not reciprocate his feelings and that I could not possibly leave my family! My brother depends on me and I cannot possibly leave my debt and my mother.</p> <p>Unfortunately, the master&rsquo;s wife heard what he had professed to me. She called me many horrible names and struck me. This denouncement lasted a whole hour and I was not able to defend myself because I did not want to cause any more scandal in the family, even if I was not the instigator. She eventually threw me out of the house and ordered me to return to my mother without pay. To make matters worse, and for her to feel better, she arranged for me to ride in a peasant&rsquo;s cart. She threw all of my clothes in a cart unpacked and strewn all over. Once I was in that cart, it started raining.</p> <p>Anastasia, I need your advice. I am &ldquo;insulted and humiliated&rdquo; and I do not know what to do (27). How am I going to find work with this scandal on my resume? Please advise me.</p> <p>Best regards, <br /> Troubled Sister</p> <br /><p>Dear Troubled Sister,</p> <p>I am deeply anguished by your situation. One does not deserve that treatment, especially since you were not encouraging the master of your house. First of all, I respect that you work in order to make money for your brother to become educated, but you are not responsible for him. Allow him to work for the money himself. He is a man, he should not depend on his sister to support him. If he is truly an astounding student, he should be able to get scholarships or seek assistance from other benefactors. If you do this, the burden of supporting your brother is released.</p> <p>It is not surprising that the lady of the house reacted in such a way. But, I am surprised that she would denounce you publically because it exposes her husband unfaithfulness as well. If that were me, I would have not exposed him publically because I feel as though that makes me seem like an unsatisfactory wife and that my husband has to stray away to satisfy his wants and desires. But, her actions are inexcusable and seem to some as cruel. I am sure that to people who know you, they understand that you would not commit the actions that she accused you of.</p> <p>If you are looking for a job though, I would try to search in other towns that do not know your prior employer. I recommend not divulging information regarding your loss of prior job as a maid. Troubled Sister, you may even want to search for another profession. You can be a shopkeeper or work in a clothing boutique. Employers of those shops normally do not ask why you were let go from prior jobs.</p> <p>Hopefully I have advised you in a useful way and you have some direction of what you should do. Please allow your brother to take care of himself and you do the same for yourself.</p> <p>Best Wishes, <br /> Anastasia</p>',
+	width: 40,
+	previewLength: 100
+});
