@@ -31,7 +31,7 @@ articles.add({
 	author: 'Ryan Lin and Michael Wu',
 	character: 'themselves',
 	inspiration: '',
-	body: '<p>In this video podcast, Periodical Discourse writers, Ryan Lin and Michael Wu, discuss the justifications of committing a crime and when some might feel that their actions are vindicated. Any comments or contributions to the open discussion can be sent to:</p> <p>Periodical Discourse, 000<br /> Nevsky Prospect, 81<br /> Russia</p><iframe src="https://docs.google.com/file/d/0B4Dv26esYFzBckZ5SHN3eXVOMFk/preview" width="640" height="385"></iframe>',
+	body: '<p>In this video podcast, Periodical Discourse authors, Ryan Lin and Michael Wu, discuss the justifications of committing a crime and when some might feel that their actions are vindicated. Any comments or contributions to the open discussion can be sent to:</p> <p>Periodical Discourse, 000<br /> Nevsky Prospect, 81<br /> Russia</p><iframe src="https://docs.google.com/file/d/0B4Dv26esYFzBckZ5SHN3eXVOMFk/preview" width="640" height="385"></iframe>',
 	width: 23,
 	previewLength: 48
 });
