@@ -7,6 +7,6 @@ and paste headers/footers on each page, I made this a single-page-app. At each
 hash change, the code responds differently. Most of the html is within client-side
 templates.
 
-URL at http://joshuakravitz.com/ap-lit-newspaper/
+http://joshuakravitz.com/ap-lit-newspaper/
 
 November, 2013
